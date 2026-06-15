@@ -1,0 +1,103 @@
+{
+  "lastRunAt": "2026-06-15T18:26:13.156Z",
+  "pendingChanges": {
+    "remove-chain-4002": {
+      "type": "remove-chain",
+      "chainId": 4002,
+      "consecutiveRuns": 10,
+      "firstSeenAt": "2026-06-11T17:37:43.111Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-rpc-1075-https://json-rpc.evm.testnet.iotaledger.net": {
+      "type": "remove-rpc",
+      "chainId": 1075,
+      "provider": "https://json-rpc.evm.testnet.iotaledger.net",
+      "consecutiveRuns": 8,
+      "firstSeenAt": "2026-06-12T15:37:43.559Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-fetchUsing-1075-blockscoutApi": {
+      "type": "remove-fetchUsing",
+      "chainId": 1075,
+      "key": "blockscoutApi",
+      "consecutiveRuns": 8,
+      "firstSeenAt": "2026-06-12T15:37:43.559Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-rpc-51-https://rpc.apothem.network": {
+      "type": "remove-rpc",
+      "chainId": 51,
+      "provider": "https://rpc.apothem.network",
+      "consecutiveRuns": 3,
+      "firstSeenAt": "2026-06-14T15:49:55.976Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "change-traceSupport-288-https://lb.drpc.org/ogrpc?network=boba-eth&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 288,
+      "provider": "https://lb.drpc.org/ogrpc?network=boba-eth&dkey={API_KEY}",
+      "from": "debug_traceTransaction",
+      "to": "trace_transaction",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-15T18:26:13.156Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-rpc-7000-https://zetachain-evm.blockpi.network/v1/rpc/public": {
+      "type": "remove-rpc",
+      "chainId": 7000,
+      "provider": "https://zetachain-evm.blockpi.network/v1/rpc/public",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-15T18:26:13.156Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-rpc-7000-https://zetachain-mainnet.g.allthatnode.com/archive/evm": {
+      "type": "remove-rpc",
+      "chainId": 7000,
+      "provider": "https://zetachain-mainnet.g.allthatnode.com/archive/evm",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-15T18:26:13.156Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-rpc-7000-https://7000.rpc.thirdweb.com": {
+      "type": "remove-rpc",
+      "chainId": 7000,
+      "provider": "https://7000.rpc.thirdweb.com",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-15T18:26:13.156Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-rpc-7001-https://lb.drpc.org/ogrpc?network=zeta-chain-testnet&dkey={API_KEY}": {
+      "type": "remove-rpc",
+      "chainId": 7001,
+      "provider": "https://lb.drpc.org/ogrpc?network=zeta-chain-testnet&dkey={API_KEY}",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-15T18:26:13.156Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-discoveredBy-7001-drpc": {
+      "type": "remove-discoveredBy",
+      "chainId": 7001,
+      "key": "drpc",
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-15T18:26:13.156Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "change-traceSupport-743111-https://lb.drpc.org/ogrpc?network=hemi-testnet&dkey={API_KEY}": {
+      "type": "change-traceSupport",
+      "chainId": 743111,
+      "provider": "https://lb.drpc.org/ogrpc?network=hemi-testnet&dkey={API_KEY}",
+      "from": "debug_traceTransaction",
+      "to": null,
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-15T18:26:13.156Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    },
+    "remove-chain-7080969": {
+      "type": "remove-chain",
+      "chainId": 7080969,
+      "consecutiveRuns": 1,
+      "firstSeenAt": "2026-06-15T18:26:13.156Z",
+      "lastSeenAt": "2026-06-15T18:26:13.156Z"
+    }
+  }
+}
