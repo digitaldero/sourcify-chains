@@ -342,8 +342,9 @@
       "apiKeyEnvName": "ETHERSCAN_API_KEY"
     },
     "rpc": [
-      "https://rpc.apothem.network",
-      "https://erpc.apothem.network"
+      "https://erpc.apothem.network",
+      "https://apothem.xdcrpc.com",
+      "https://rpc.apothem.network"
     ]
   },
   "56": {
@@ -1718,15 +1719,7 @@
     "supported": false,
     "discoveredBy": [
       "blockscout"
-    ],
-    "rpc": [
-      "https://json-rpc.evm.testnet.iotaledger.net"
-    ],
-    "fetchContractCreationTxUsing": {
-      "blockscoutApi": {
-        "url": "https://explorer.evm.testnet.iotaledger.net/"
-      }
-    }
+    ]
   },
   "1076": {
     "sourcifyName": "IOTA EVM Testnet",
@@ -2736,21 +2729,6 @@
       "https://node1.ozonechain.io"
     ]
   },
-  "4002": {
-    "sourcifyName": "Fantom Testnet",
-    "supported": true,
-    "discoveredBy": [
-      "drpc"
-    ],
-    "rpc": [
-      {
-        "type": "APIKeyRPC",
-        "url": "https://lb.drpc.org/ogrpc?network=fantom-testnet&dkey={API_KEY}",
-        "apiKeyEnvName": "DRPC_API_KEY",
-        "traceSupport": "trace_transaction"
-      }
-    ]
-  },
   "4114": {
     "sourcifyName": "Citrea Mainnet",
     "supported": true,
@@ -2760,7 +2738,8 @@
     "fetchContractCreationTxUsing": {
       "blockscoutApi": {
         "url": "https://explorer.mainnet.citrea.xyz"
-      }
+      },
+      "avalancheApi": true
     },
     "rpc": [
       "https://rpc.mainnet.citrea.xyz"
@@ -3228,7 +3207,10 @@
         "url": "https://lb.drpc.org/ogrpc?network=zeta-chain-testnet&dkey={API_KEY}",
         "apiKeyEnvName": "DRPC_API_KEY",
         "traceSupport": "debug_traceTransaction"
-      }
+      },
+      "https://zetachain-athens-evm.blockpi.network/v1/rpc/public",
+      "https://zetachain-athens.g.allthatnode.com/archive/evm",
+      "https://7001.rpc.thirdweb.com"
     ]
   },
   "7171": {
